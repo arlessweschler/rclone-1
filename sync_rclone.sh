@@ -1,9 +1,9 @@
 #!/bin/sh
 
-# path:   /home/klassiker/.local/share/repos/rclone/sync_rclone.sh
+# path:   /home/klassiker/Projects/repos/rclone/sync_rclone.sh
 # author: klassiker [mrdotx]
 # url:    https://github.com/mrdotx/rclone
-# date:   2026-04-29T05:11:31+0200
+# date:   2026-06-30T03:38:52+0200
 
 # config
 rclone_dir="$HOME/Cloud"
@@ -26,13 +26,13 @@ tty -s \
 script=$(basename "$0")
 help="$script [-h/--help] -- script to copy/sync from/to cloud with rclone
   Usage:
-    $script [--check/--copy/--sync_to/--sync_from]
+    $script [--check|--copy|--sync_to|--sync_from]
 
   Setting:
-      --check     = check differences between local and cloud
-      --copy      = copy from/to cloud
-      --sync_to   = sync to cloud
-      --sync_from = sync from cloud
+      [--check]     = check differences between local and cloud
+      [--copy]      = copy from/to cloud
+      [--sync_to]   = sync to cloud
+      [--sync_from] = sync from cloud
 
   Example:
     $script --check

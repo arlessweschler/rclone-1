@@ -1,9 +1,9 @@
 #!/bin/sh
 
-# path:   /home/klassiker/.local/share/repos/rclone/sync_keepass.sh
+# path:   /home/klassiker/Projects/repos/rclone/sync_keepass.sh
 # author: klassiker [mrdotx]
 # url:    https://github.com/mrdotx/rclone
-# date:   2025-08-12T04:16:42+0200
+# date:   2026-06-30T03:38:45+0200
 
 rclone_name="dropbox"
 keepass_file="klassiker.kdbx"
